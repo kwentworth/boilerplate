@@ -1,0 +1,93 @@
+/* increase the max width 
+* to get any set size: .grid { max-width: none; width: 96%/1600px; }
+*/
+.grid-fluid {
+	/* increase the max width to a fluid layout */
+	max-width: 1600px;
+	width: 96%;
+	
+	
+}
+/* keep the header and grid full-width, use site-content to set spacing */
+.row {
+	margin-bottom: 3em;
+}
+
+.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12 {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+#site-container {
+	width: 100%;
+	max-width: none;
+}
+#site-content {
+	max-width: 1600px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	
+	padding-top: 3em;
+	margin-bottom: 3em;
+	
+	border: 1px solid #c0c0c0;
+	border-top: 0px;
+	
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
+	box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-moz-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+}
+
+header.row {
+	margin-bottom: 0;
+	background-color: #ffa619;
+	border: 0;
+	border-bottom: 1px solid #f05523;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(160,160,160,1);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(160,160,160,1);
+	box-shadow: 0px 0px 3px 0px rgba(160,160,160,1);
+}
+#header-content {
+	max-width: 1600px;
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	color: #fff;
+	text-align: left;
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1.3em;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+}
+.row h2 {
+	color: #f05523;
+	text-align: left;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 3em;
+	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+}
+header.row h2 {
+	color: #f05523;
+	text-align: right;
+	font-size: 1.5em;
+	font-style: italic;
+	letter-spacing: 0.03em;
+	margin-top: 2em;
+	
+}
+p {
+	color: #a0a0a0;
+	font-size: 1.5em;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-align: left;
+}
