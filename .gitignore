@@ -1,2 +1,17 @@
 # Include your project-specific ignores in this file
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+.settings/*
+.cache/*
+.project
+.ftpquota
+.buildpath
+SyncToy*
+.DS_Store
+webroot/theme/*
+webroot/min/*
+webroot/files/*
+webroot/css/*
+webroot/img/*
+webroot/js/*
+webroot/images/*
+resources/*/_*

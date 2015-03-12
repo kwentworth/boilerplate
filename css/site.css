@@ -1,37 +1,45 @@
-/* increase the max width 
-* to get any set size: .grid { max-width: none; width: 96%/1600px; }
-*/
-.grid-fluid {
-	/* increase the max width to a fluid layout */
-	max-width: 1600px;
-	width: 96%;
-	
-	
-}
-/* keep the header and grid full-width, use site-content to set spacing */
-.row {
-	margin-bottom: 3em;
-}
-
-.c1, .c2, .c3, .c4, .c5, .c6, .c7, .c8, .c9, .c10, .c11, .c12 {
-	padding-right: 30px;
-	padding-left: 30px;
-}
-#site-container {
+/* allows for a 100% fluid layout - needed for background stretching */
+.container {
 	width: 100%;
 	max-width: none;
+	text-align: center;
 }
-#site-content {
+.row {
 	max-width: 1600px;
 	width: 90%;
 	margin: 0 auto;
-	text-align: center;
-	
+}
+header {
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
+	box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
+}
+header .row {
 	padding-top: 3em;
 	margin-bottom: 3em;
 	
+}
+header.container {
+	margin-bottom: 0;
+	background-color: #b5d66e;
+	border: 0;
+	border-bottom: 1px solid #629715;
+}
+header.container h2 {
+	color: #629715;
+	text-align: right;
+	margin-top: 2rem;
+	font-style: italic;
+	font-size: 3rem;
+	letter-spacing: .04rem;
+	
+}
+
+#site-content > .row {	
 	border: 1px solid #c0c0c0;
 	border-top: 0px;
+	
+	margin-bottom: 5rem;
 	
 	-webkit-box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
 	-moz-box-shadow: 0px 2px 3px 0px rgba(160,160,160,1);
@@ -40,54 +48,30 @@
 	-moz-border-radius: 0px 0px 3px 3px;
 	border-radius: 0px 0px 3px 3px;
 }
-
-header.row {
-	margin-bottom: 0;
-	background-color: #ffa619;
-	border: 0;
-	border-bottom: 1px solid #f05523;
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(160,160,160,1);
-	-moz-box-shadow: 0px 0px 3px 0px rgba(160,160,160,1);
-	box-shadow: 0px 0px 3px 0px rgba(160,160,160,1);
-}
-#header-content {
-	max-width: 1600px;
-	width: 90%;
-	margin: 0 auto;
-	text-align: center;
+#site-content .column {
+	padding: 4rem;
+	text-align: left;
 }
 h1 {
 	color: #fff;
 	text-align: left;
-	font-size: 3em;
-	font-weight: bold;
-	line-height: 1.3em;
-	font-family: 'Oswald', Helvetica, Arial, sans-serif;
-	letter-spacing: .02em;
 	text-transform: uppercase;
-}
-.row h2 {
-	color: #f05523;
-	text-align: left;
-	font-size: 2em;
-	font-weight: bold;
-	line-height: 3em;
-	font-family: 'Oswald', Helvetica, Arial, sans-serif;
-	letter-spacing: .02em;
-	text-transform: uppercase;
-}
-header.row h2 {
-	color: #f05523;
-	text-align: right;
-	font-size: 1.5em;
-	font-style: italic;
-	letter-spacing: 0.03em;
-	margin-top: 2em;
-	
+	font-weight: 600;
+	letter-spacing: .04rem;
 }
 p {
 	color: #a0a0a0;
 	font-size: 1.5em;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: left;
+}
+/**** SAUI ****/
+.saui-text-right {
+	text-align: right !important;
+}
+.saui-text-left {
+	text-align: left !important;
+}
+.saui-text-center {
+	text-align: center;
 }
